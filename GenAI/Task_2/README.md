@@ -71,6 +71,7 @@ Explain Neural Networks for beginners in a fun storytelling style
 
 ---
 ## 📂 Project Structure
+
 ├── notebook/
 │ └── langchain_prompt_engine.ipynb
 ├── diagrams/
@@ -115,4 +116,3 @@ Grateful to **Innomatics Research Labs** for the guidance and learning opportuni
 **Md Javeed Khan**  
 📧 mdjaveedkhanofficial@gmail.com  
 🌐 https://mdjaveedkhan.me
-## 📂 Project Structure
