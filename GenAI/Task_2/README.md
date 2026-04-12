@@ -44,7 +44,7 @@ This project focuses on designing a **modular prompt engine** that can generate 
 
 ## 🔄 Architecture Flow
 
-![Architecture Diagram](diagrams/Architecture1.png)
+![Architecture Diagram](diagrams/architecture1.png)
 
 User Input → Prompt → LLM → Chain → Tool/Agent → Output  
 
