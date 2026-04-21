@@ -1,0 +1,148 @@
+🚀 AI Resume Screening System
+
+Enter resume PDF path (or Enter for demo): 
+
+============================================================
+💪 Strong
+============================================================
+
+👤 Candidate
+Name: Arhman
+Email: arhman@email.com
+
+📌 Extracted
+{
+  "name": "Arhman",
+  "email": "arhman@email.com",
+  "skills": [
+    "Programming: Python, R, SQL",
+    "Machine Learning: Scikit-learn, TensorFlow, PyTorch",
+    "Data Analysis: Pandas, NumPy",
+    "Visualization: Matplotlib, Seaborn, Power BI",
+    "Cloud Platforms: AWS (SageMaker), GCP",
+    "Tools: Docker, FastAPI, Flask"
+  ],
+  "tools": [
+    "Docker",
+    "FastAPI",
+    "Flask"
+  ],
+  "experience": "Data Scientist \u2013 TechCorp (2021\u20132024)",
+  "domain": "Data Scientist"
+}
+
+📊 Match
+{
+  "matched": [
+    "Python",
+    "Machine Learning",
+    "SQL",
+    "Pandas",
+    "NumPy",
+    "Data Visualization",
+    "Cloud (AWS/GCP/Azure)"
+  ],
+  "missing": []
+}
+
+🎯 Score
+95
+
+💡 Explanation
+The candidate score is a measure of how well a candidate matches the job requirements. It's calculated by comparing the skills and experience listed in the job description to the skills and experience mentioned in the candidate's resume. In this case, the candidate has a score of 95, indicating a very strong match.
+
+============================================================
+⚖️ Average
+============================================================
+
+👤 Candidate
+Name: Sneha
+Email: sneha@email.com
+
+📌 Extracted
+{
+  "name": "Sneha",
+  "email": "sneha@email.com",
+  "skills": [
+    "Python (basic)",
+    "SQL",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Excel",
+    "Google Sheets"
+  ],
+  "tools": [
+    "Excel",
+    "Google Sheets"
+  ],
+  "experience": "Junior Data Analyst \u2013 StartupXYZ (2023\u20132024)",
+  "domain": "Information Technology"
+}
+
+📊 Match
+{
+  "matched": [
+    "Python",
+    "SQL",
+    "Pandas",
+    "NumPy",
+    "Data Visualization"
+  ],
+  "missing": [
+    "Machine Learning",
+    "Cloud (AWS/GCP/Azure)"
+  ]
+}
+
+🎯 Score
+75
+
+💡 Explanation
+The candidate score is a measure of how well a candidate matches the job requirements. It's calculated by comparing the skills and experience listed in the resume to the job requirements. In this case, the candidate has a score of 75, indicating they have some relevant skills and experience, but are missing a few key areas.
+
+============================================================
+❌ Weak
+============================================================
+
+👤 Candidate
+Name: Preet
+Email: preet@email.com
+
+📌 Extracted
+{
+  "name": "Preet",
+  "email": "preet@email.com",
+  "skills": [
+    "Web Development: HTML, CSS, JavaScript",
+    "Basic Programming: Python (beginner)",
+    "Tools: WordPress, Canva"
+  ],
+  "tools": [
+    "WordPress",
+    "Canva"
+  ],
+  "experience": "Intern \u2013 Web Development (6 months)",
+  "domain": "Commerce"
+}
+
+📊 Match
+{
+  "matched": [],
+  "missing": [
+    "Python",
+    "Machine Learning",
+    "SQL",
+    "Pandas",
+    "NumPy",
+    "Data Visualization",
+    "Cloud (AWS/GCP/Azure)"
+  ]
+}
+
+🎯 Score
+20
+
+💡 Explanation
+The candidate score is a number that shows how well a candidate matches the job requirements. It's calculated by comparing the skills and experience listed in the candidate's resume to the job requirements. A higher score means the candidate is a better fit for the job.
+(venv) PS C:\Users\Gayathri\Downloads\AI_Resume_Screening> 
