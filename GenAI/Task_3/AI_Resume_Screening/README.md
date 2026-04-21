@@ -1,34 +1,23 @@
-# 🧠 AI Resume Screening System
+🧠 AI Resume Screening System
 
-An AI-powered resume screening system built using LangChain and Groq, with full pipeline tracing using LangSmith.
+An intelligent resume screening system developed by Md Javeed Khan, designed to automate candidate evaluation using advanced Large Language Models and structured pipeline processing.
 
----
-
-## 🚀 Features
-
-- Resume + Job Description Input
-- Skill Extraction
-- Matching Analysis
-- Candidate Scoring (0–100)
-- Explanation Generation
-- LangSmith Tracing (Debugging)
-- Groq API Integration
-- PDF Resume Support
-
----
-
-## 🛠 Tech Stack
-
-- Python
-- LangChain
-- Groq (LLM)
-- LangSmith (Tracing)
-- PyPDF2
-
----
-## 📂 Project Structure
-
-```
+🚀 Features
+Resume & Job Description Input
+Automated Skill Extraction
+Intelligent Matching Analysis
+Candidate Scoring System (0–100)
+Explainable AI-based Feedback
+End-to-End Pipeline Processing
+PDF Resume Parsing Support
+Debugging & Monitoring with Tracing
+🛠 Tech Stack
+Python
+LangChain (LLM pipeline orchestration)
+Groq API (LLaMA 3.3–70B)
+LangSmith (Tracing & Debugging)
+PyPDF2 (PDF Processing)
+📂 Project Structure
 ai-resume-screening/
 │
 ├── prompts/
@@ -48,84 +37,61 @@ ai-resume-screening/
 │   ├── job_description.txt
 │
 ├── main.py
-├── sample.pdf(optional- any pdf you can use based on your choice)
+├── sample.pdf
 ├── requirements.txt
 └── README.md
-```
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone Repository
-
+⚙️ Setup Instructions
+1. Clone Repository
 git clone <your-repo-link>
-cd AI_Resume_Screening
-
-### 2. Install Dependencies
+cd ai-resume-screening
+2. Install Dependencies
 pip install -r requirements.txt
+3. Configure Environment Variables
 
-### 3. Setup Environment Variables
+Create a .env file and add:
 
-Create `.env` file:
 GROQ_API_KEY=your_groq_api_key
 LANGCHAIN_API_KEY=your_langsmith_api_key
 LANGCHAIN_TRACING_V2=true
-LANGCHAIN_PROJECT=resume-screening
+LANGCHAIN_PROJECT=ai-resume-screening
+🔑 API Keys
+Groq API → https://console.groq.com/
+LangSmith → https://smith.langchain.com/
 
----
-## Get free API keys
-Service	URL	Notes
-Groq	https://console.groq.com/	Free, no credit card. Uses Llama 3.3-70B
-LangSmith	https://smith.langchain.com/	Free developer plan
+(Both offer free developer access)
 
-## ▶️ Run the Project
+▶️ Run the Project
 python main.py
-
----
-
-## 📊 Pipeline Flow
+📊 Pipeline Workflow
 Resume → Skill Extraction → Matching → Scoring → Explanation → Tracing
+🔍 Monitoring with LangSmith
+Tracks each stage of the pipeline
+Displays LLM inputs & outputs
+Helps debug incorrect predictions
+Enables performance optimization
+📸 Output
+Structured Terminal Output
+Candidate Score (0–100)
+Detailed Explanation Report
+Logs in LangSmith Dashboard
+🎯 Key Highlights
 
+✔ Modular Pipeline Architecture
+✔ Explainable AI Decisions
+✔ Real-time LLM Processing
+✔ Clean Code Structure
+✔ Debuggable with Tracing
 
----
+💡 Future Improvements
+Streamlit Web Interface
+Resume Ranking System
+JSON Structured Output
+Advanced Scoring Algorithm (ML-based)
+Database Integration
+👨‍💻 Author
 
-## 🔍 LangSmith Tracing
+Md Javeed Khan
+📞 +91 8143747313
+📧 mdjaveedkhanofficial@gmail.com
 
-- Tracks each pipeline step
-- Helps debug incorrect outputs
-- Shows LLM inputs and outputs
-
----
-
-## 📸 Output
-
-- Terminal Output (formatted)
-- Saved Output File
-- LangSmith Dashboard
-- Groq API Logs
-
----
-
-## 🎯 Evaluation Criteria Covered
-
-✔ Pipeline Design  
-✔ LangChain Implementation  
-✔ Scoring Logic  
-✔ Explainability  
-✔ LangSmith Tracing  
-✔ Code Structure  
-
----
-
-## 💡 Future Improvements
-
-- Streamlit UI
-- JSON structured outputs
-- Better scoring algorithm
-- Resume ranking system
-
----
-
-## 👩‍💻 Author
-
-Kota Gayathri
+🌐 Portfolio: mdjaveedkhan.me
