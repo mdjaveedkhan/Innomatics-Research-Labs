@@ -25,8 +25,9 @@ This ensures the system avoids hallucinations and provides trustworthy answers i
 
 ---
 
-## 🏗️ System Architecture (High-Level)
+## 🏗️ System Architecture 
 
+![System Architecture](docs/Architecture.png)
 **Core Flow:**
 
 User Query → Retrieval → Context Injection → LLM → Decision → Output / HITL
